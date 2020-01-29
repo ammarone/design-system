@@ -1,8 +1,8 @@
 @charset "utf-8";
 
 @import "./variables/index.scss";
-@import "./base/fonts.scss";
+@import "./mixins/index.scss";
 
-body {
-    font-family: $family-primary;
-}
+@import "./base/index.scss";
+
+@import "./layout/index.scss";

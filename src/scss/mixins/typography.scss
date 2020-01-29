@@ -1,0 +1,31 @@
+@mixin h1 {
+    font-size: $text-size-2;
+    font-weight: $font-weight-bold;
+    letter-spacing: .15rem;
+}
+
+@mixin h2 {
+    font-size: $text-size-4;
+    font-weight: $font-weight-normal;
+  }
+  
+  @mixin h3 {
+    font-size: $text-size-6;
+    font-weight: $font-weight-normal;
+  }
+  
+  @mixin h4 {
+    font-size: $text-size-9;
+    font-weight: $font-weight-normal;
+    text-transform: uppercase;
+  }
+  
+  @mixin h5 {
+    font-size: $text-size-9;
+    font-weight: $font-weight-normal;
+  }
+  
+  @mixin h6 {
+    font-size: $text-size-10;
+    font-weight: $font-weight-normal;
+  }

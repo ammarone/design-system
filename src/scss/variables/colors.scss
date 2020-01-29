@@ -1,0 +1,31 @@
+@import "color-system.scss";
+
+// Border colors
+$border-white:       $white !default;
+$border-black:  $black !default;
+$border-gray-dark:   $su-gray-dark-100 !default;
+$border-gray-medium: $su-gray-light-70 !default;
+$border-gray-light:  $su-gray-light-30 !default;
+$border-gray:        $su-gray-medium-60 !default;
+$border-blue:        $su-blue-primary-100 !default;
+
+//Text Colors
+$text-black:        $black !default;
+$text-white:        $white !default;
+$text-blue:         $su-blue-primary-100 !default;
+$text-gray-dark:    $su-gray-dark-100 !default;
+$text-gray-light:   $su-gray-medium-100 !default;
+$text-gray:         $su-gray-dark-100 !default;
+$text-orange:       $su-orange-primary-100 !default;
+$text-orange-dark: $su-orange-dark-100 !default;
+
+// Background colors
+$bg-white:          $white !default;
+$bg-black:          $black !default;
+$bg-blue-light:     $su-blue-light-30 !default;
+$bg-blue:           $su-blue-primary-100 !default;
+$bg-gray-dark:      $su-gray-light-100 !default;
+$bg-gray-light:     $su-gray-light-10 !default;
+$bg-gray:           $su-gray-medium-60 !default;
+$bg-orange:         $su-orange-dark-100 !default;
+

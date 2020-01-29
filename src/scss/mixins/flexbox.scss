@@ -1,0 +1,14 @@
+@mixin flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin flex-row-nowrap {
+    @include flex-row;
+    flex-wrap: nowrap;
+}
+
+@mixin flex-row-align-center {
+    @include flex-row;
+    align-items: center;
+}
