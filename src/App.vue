@@ -12,5 +12,6 @@ html, body {
 #app {
   height: 100%;
   overflow: hidden;
+  background-color: $su-gray-light-20;
 }
 </style>

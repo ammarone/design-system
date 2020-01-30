@@ -1,12 +1,18 @@
 <template>
   <div class="home">
     <page-template>
+      <div slot="sidebar">
+        <home-sidebar />
+      </div>
       <div slot="content">
         <div class="home__hero">
           <img class="home__hero-background-image" src="../assets/Logos/block-s.svg" alt=""/>
           <div class="home__hero-title-container">
             <h1 class="home__hero-title-heading">Design System</h1>
           </div>
+        </div>
+        <div class="home__content">
+          <h2>Welcome to OrangeCSS</h2>
         </div>
       </div>
     </page-template>
@@ -15,11 +21,13 @@
 
 <script>
 import PageTemplate from '../components/Base/page-template.vue';
+import HomeSidebar from '../components/Sidebars/home-sidebar.vue';
 
 export default {
   name: 'home',
   components: {
     PageTemplate,
+    HomeSidebar,
   },
 };
 </script>
@@ -29,10 +37,7 @@ export default {
     height: 100%;
     &__hero {
       background: $su-blue-primary-100;
-      margin-left: -$spacer-4;
-      margin-right: -$spacer-4;
-      margin-top: -$spacer-4;
-      height: 75vh;
+      height: 50vh;
       position: relative;
       overflow: hidden;
       &-background-image {
@@ -45,6 +50,9 @@ export default {
         color: $white;
         font-weight: 500;
       }
+    }
+    &__content {
+      padding: $spacer-4;
     }
   }
 </style>
